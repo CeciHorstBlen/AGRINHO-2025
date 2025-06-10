@@ -14,4 +14,12 @@ body{
 .cabecalho h3{
     color: rgb(206, 206, 8);
 }
-
+p .alinha{
+    text-align: right;
+}
+.img-agro{
+    width: 300px; 
+}
+.alfac{
+    width: 200px; 
+}
