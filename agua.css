@@ -14,3 +14,27 @@ body{
 .cabecalho h3{
     color: rgb(206, 206, 8);
 }
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.a1{
+    height: 200px;
+}
+
+.a2{
+    height: 400px;
+    right: 200px;
+}
+
+.bg-azul-pastel {
+  background-color: #88ecf1; /* Azul pastel */
+  color: #1a1a1a; /* Texto escuro pra manter o contraste */
+  padding: 2rem;
+  border-radius: 15rem; /* Só se quiser cantos arredondados */
+  text-align: center;
+}

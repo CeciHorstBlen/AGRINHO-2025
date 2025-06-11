@@ -12,5 +12,45 @@ body{
 }
 
 .cabecalho h3{
-    color: rgb(206, 206, 8);
+    color: rgb(240, 240, 111);
+}
+
+.containerfarmas {
+  display: flex;
+  align-items: center; /* Alinha verticalmente ao centro */
+  justify-content: center;
+  gap: 2rem; /* Espaço entre as colunas */
+  padding: 2rem;
+}
+
+.coluna-esquerda,
+.coluna-direita {
+  width: 30%;
+  text-align: center;
+}
+
+.imagem-conecxao img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 1rem;
+}
+
+  .img-conex {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* espaço entre as imagens */
+  margin-top: 20px;
+}
+
+.bg-verm-pastel {
+  background-color: #f05252; /* Azul pastel */
+  color: #1a1a1a; /* Texto escuro pra manter o contraste */
+  padding: 2rem;
+  border-radius: 15rem; /* Só se quiser cantos arredondados */
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
